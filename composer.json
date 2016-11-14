@@ -8,7 +8,7 @@
   "minimum-stability": "dev",
   "support": {
     "issues": "php@tamtam.nl",
-    "source": "https://bitbucket.org/tamtam-nl/embed_node"
+    "source": "https://bitbucket.org/tamtam-nl/template_nid"
   },
   "require": { }
 }
