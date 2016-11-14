@@ -1,0 +1,19 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Symfony\Component\HttpFoundation\Request;
+
+/**
+ * Implements hook_help().
+ */
+function template_nid_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.template_nid':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Return NID for field_template properyy') . '</p>';
+      return $output;
+
+    default:
+  }
+}

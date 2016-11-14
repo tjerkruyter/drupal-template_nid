@@ -1,0 +1,5 @@
+services:
+  template_nid.twig.template_nid_extension:
+    class: Drupal\template_nid\Twig\TemplateNidExtension
+    tags:
+      - { name: twig.extension }
